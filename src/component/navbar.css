@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu {
+    display: none; /* Hide the menu button on larger screens */
+  }
+  
+  .content {
+    flex: 1; /* Take up remaining space in the middle */
+    text-align: center;
+  }
+  
+  .username {
+    margin-right: 10px; /* Add some space to the right of the username */
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for responsive design - Show the menu button on smaller screens */
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+  }
+  
